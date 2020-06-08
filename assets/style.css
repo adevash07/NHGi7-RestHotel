@@ -1,6 +1,87 @@
+body{
+	max-width: 100%;
+	margin: 0px;
+}
 
+	/*-------------------------------------------DEBUGGGER STARTS HERE-------------------------------------------
+	-----------------------------------------------------------------------------------------------------------*/
+.main {
+	width: 80%;
+	margin:0 auto;
 
+}
+.atypical-Con {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	font-family: Playfair Display;
+}
 
+.Atypical{
+	font-size: 16px;
+	line-height: 24px;
+	padding: 5em;
+}
+
+.Suites{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	font-family: Playfair Display;
+	margin: 50px 0px 50px 0px;
+}
+
+.roomSuites{
+	flex: 1;
+}
+
+.suitesText {
+	flex: 2;
+	justify-content: flex-end;
+	padding: 0px 0px 0px 500px;
+}
+
+.rooms{
+	width:100%;
+	display: flex;
+	flex-direction: row;
+	flex-flow: row wrap;
+	flex-wrap: wrap;
+}
+
+.room1 {
+	flex: 2;
+	position: relative;
+}
+
+.room2 {
+	flex: 1;
+	position: relative;
+}
+
+.room3 {
+	flex: 1;
+	position: relative;
+}
+
+.Book1, .Book2, .Book3, .Book4, .Gold, .Stan, .Silver {
+	position: absolute;
+	color: white;
+}
+
+.Book1, .Book2, .Book3 {
+	right: 5em;
+	top: 2em;
+	border: 1px solid white ;
+	padding: 7px;
+}
+
+.Gold, .Stan, .Silver {
+	bottom: 5em;
+	left: 3em;
+}/*-------------------------------------------DEBUGGGER ENDS HERE-------------------------------------------
+	-----------------------------------------------------------------------------------------------------------*/
 
 footer {
 
