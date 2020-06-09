@@ -1,0 +1,59 @@
+body{
+	width: 100%;
+	margin: 0px;
+}
+@font-face{
+	font-family: "Playfair Display";
+	src: url('debuggerFonts/PlayfairDisplay-VariableFont_wght.ttf') format('truetype'); 
+}
+
+.fac {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+}
+
+.facHead {
+	flex:1;
+	align-self: flex-end;
+	margin-left: 2em;
+	margin-right: 5em;
+	margin-bottom: 0.1em;
+	font-family: Playfair Display;
+	font-weight: bold;
+	font-style: normal;
+	font-size: 48px;
+	color:#0d3644;
+}
+
+.facImgCon{
+	flex:3 ;
+}
+.facImg{
+	width: 100%;
+	height: 22em;
+}
+.facText{
+	padding-right: 30%;
+	margin:5em 12em 5em 12em;
+}
+
+.facPic {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	width:70%;
+	margin: 0 auto;
+}
+
+.sportDiner{
+	flex:1 40%;
+	display: flex;
+	flex-flow: column wrap;
+}
+.bar{
+	flex:1 40%;
+}
+.live{
+	flex:2 100%;
+}
