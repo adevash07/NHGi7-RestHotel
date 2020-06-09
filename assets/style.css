@@ -1,6 +1,141 @@
+body{
+	max-width: 100%;
+	margin: 0px;
+}
+
+	/*-------------------------------------------DEBUGGGER STARTS HERE-------------------------------------------
+	-----------------------------------------------------------------------------------------------------------*/
+@font-face{
+	font-family: "Playfair Display";
+	src: url('debuggerFonts/PlayfairDisplay-VariableFont_wght.ttf') format('truetype'); 
+}
+@font-face{
+	font-family: "Muli";
+	src: url('debuggerFonts/Muli-VariableFont_wght.ttf') format('truetype');
+}
+@font-face{
+	font-family: "Lato";
+	src: url('debuggerFonts/Lato-Bold.ttf') format('truetype');
 
 
+		
+}
 
+.main {
+	width: 80%;
+	margin:0 auto;
+
+}
+.h-Atypical {
+	font-family: Playfair Display;
+	font-weight: bold;
+	margin-bottom: 0px;
+	color:#0d3644;
+}
+.rest {
+	border-bottom: 1px solid #f6ae2d;
+}
+.atypical-Con {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 10px;
+}
+
+.Atypical{
+	font-size: 16px;
+	font-style: normal;
+	line-height: 24px;
+	padding: 2em 5em 5em 5em;
+	font-family: Muli;
+	text-align: justify;
+
+}
+
+.Suites{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	font-family: Playfair Display;
+	margin: 70px 0px 70px 0px;
+}
+
+.roomSuites{
+	flex: 1;
+	font-family: Playfair Display;
+	font-size: 32px;
+	color:#0d3644;
+	font-weight: bold;
+	font-style: normal;
+	line-height: 44px;
+}
+
+.suitesText {
+	flex: 2;
+	justify-content: flex-end;
+	padding: 0px 0px 0px 500px;
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 24px;
+	font-family: Muli;
+	color:#0d3644;
+
+}
+
+.rooms{
+	width:100%;
+	display: flex;
+	flex-direction: row;
+	flex-flow: row wrap;
+	flex-wrap: wrap;
+}
+
+.room1 {
+	flex: 2;
+	position: relative;
+}
+
+.room2 {
+	flex: 1;
+	position: relative;
+}
+
+.room3 {
+	flex: 1;
+	position: relative;
+}
+
+.Book1, .Book2, .Book3, .Book4, .Gold, .Stan, .Silver {
+	position: absolute;
+	color: white;
+}
+
+.Book1, .Book2, .Book3 {
+	right: 5em;
+	top: 2em;
+	border: 1px solid white ;
+	padding: 10px;
+	font-family: Lato;
+}
+
+.Gold, .Stan, .Silver {
+	bottom: 1em;
+	left: 3em;
+	font-family: Playfair Display;
+	font-weight: bold;
+	font-size: 24px;
+	font-style: normal;
+	line-height: 44px;
+}
+.rate {
+	font-family: Lato;
+	font-size: 14px;
+	font-weight: bold;
+	color: rgba(255,255,255,0.6);
+}
+/*-------------------------------------------DEBUGGGER ENDS HERE-------------------------------------------
+	-----------------------------------------------------------------------------------------------------------*/
 
 footer {
 
